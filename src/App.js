@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import marked from 'marked';
+import hljs from 'highlight.js';
 import './App.css';
 
 const initialMarkdown = `
